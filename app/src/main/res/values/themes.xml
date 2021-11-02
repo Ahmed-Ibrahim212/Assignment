@@ -13,4 +13,23 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="firstView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="secondView" parent="firstView">
+        <item name="android:background">@color/purple_500</item>
+    </style>
+
+    <style name="thirdView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/teal_200</item>
+    </style>
+
+
+
+
 </resources>
